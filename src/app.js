@@ -10,9 +10,10 @@ domain = () => {
     for (let j = 0; j < adj.length; j++) 
       for (let k = 0; k < nouns.length; k++) 
         for (let l = 0; l < extentions.length; l++) 
-        return(pronouns[i] + adj[j] + nouns[k] + extentions[l]);
+        console.log(pronouns[i] + adj[j] + nouns[k] + extentions[l]);
+        
     };
- console.log(domain())
+domain()
 //let domainName = () => {
 //let pronoun = ["the", "our", "you", "anyone"];
 //let adj = ["great", "big", "small", "bright"];
